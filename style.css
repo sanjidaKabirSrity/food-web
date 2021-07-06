@@ -12,10 +12,10 @@ ul {
 li {
   float: left;
   padding: 14px 18px;
-  border-left: 2px solid rgb(122, 2, 2);
+  border-left: 2px solid rgb(180, 4, 4);
 }
 li:last-child {
-  border-right: 2px solid rgb(122, 2, 2);
+  border-right: 2px solid rgb(180, 4, 4);
 }
 ul a {
   text-decoration: none;
@@ -142,4 +142,51 @@ h2 {
   font-weight: inherit;
   line-height: 27px;
   margin: 20px;
+}
+.sec4 {
+  display: flex;
+  border-radius: 25px;
+  margin: 0px 97px;
+  box-shadow: 2px 2px 18px 5px #0000001c;
+}
+.singleSec4 {
+  padding: 60px 80px;
+  margin: 0px 35px;
+}
+.singleSec4 h2 {
+  font-size: 45px;
+  color: rgb(20, 20, 20);
+}
+.singleSec4 p {
+  color: rgb(51, 50, 50);
+  font-size: 14px;
+}
+.contact {
+  text-align: center;
+  line-height: 60px;
+}
+.contact p {
+  color: #e32728;
+}
+#icon img {
+  width: 40px;
+  height: 42px;
+  margin: 20px;
+}
+footer {
+  background-color: #0b0d17;
+}
+#footer h3 {
+  font-size: 30px;
+  color: #5b5b5b;
+  padding: 35px 0px;
+}
+#footer {
+  text-align: center;
+}
+#footer p {
+  color: #b6b6b6;
+  font-size: 14px;
+  font-weight: inherit;
+  padding-bottom: 100px;
 }
