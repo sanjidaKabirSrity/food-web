@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  overflow: hidden;
+  background-color: #e32728;
+  list-style-type: none;
+  padding: 0px 0px 0px 70px;
+}
+li {
+  float: left;
+  padding: 14px 18px;
+  border-left: 2px solid rgb(122, 2, 2);
+}
+li:last-child {
+  border-right: 2px solid rgb(122, 2, 2);
+}
+ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.home {
+  display: flex;
+  margin: 50px 60px;
+}
+.home-div {
+  width: 50%;
+}
+.hdiv2 img {
+  width: 90%;
+  padding: 30px;
+  margin-left: 30px;
+}
+span {
+  color: #eb6076;
+}
+.home-div h1 {
+  font-size: 52px;
+  color: #575757;
+  font-weight: bolder;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+p {
+  font-size: 18px;
+  color: #6e6d6d;
+}
+.hdiv1 {
+  margin: 40px;
+  width: 470px;
+}
+button {
+  background: linear-gradient(to right, #eb6076, #e32728);
+  border: none;
+  padding: 20px 36px;
+  border-radius: 40px;
+  margin-top: 40px;
+}
+button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.sec {
+  margin-bottom: 100px;
+}
+.sec-2 {
+  background: url("img/Frame 58.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+}
+.sec2img img {
+  width: 340px;
+  height: 520px;
+  margin-top: 65px;
+  margin-left: 180px;
+}
+.sec2div {
+  width: 470px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 35px;
+}
+.sec2div h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #575757;
+  margin: 33px 0px;
+}
+.sec2div p {
+  color: rgb(36, 35, 35);
+  font-size: 17px;
+  line-height: 27px;
+}
